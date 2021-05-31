@@ -115,7 +115,7 @@ class SearchFragment : BaseFragment() {
         })
 
         searchViewModel.dialog.observe(viewLifecycleOwner, Observer {
-            Toast.makeText(requireContext(), it, Toast.LENGTH_LONG).show()
+            showExceptionMessageDialog(it)
         })
     }
 
