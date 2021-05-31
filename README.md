@@ -24,5 +24,4 @@ Picasso
 
 Retrofit
 
-![Search](Screenshot_1622448945.png)
-![Maps](Screenshot_1622448960.png)
+![Search](Screenshot_1622448945.png) | ![Maps](Screenshot_1622448960.png)
