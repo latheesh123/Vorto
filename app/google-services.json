@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "325231855722",
+    "project_id": "vorto-4799c",
+    "storage_bucket": "vorto-4799c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:325231855722:android:2e5bbec4996080fcdc2213",
+        "android_client_info": {
+          "package_name": "com.example.vorto"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "325231855722-rsku2crqtsi4m8ppo2grmqdtrbbkdl67.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDatDMHJ1x8Gx4w8daC-n8HM1CEZfeMhhE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "325231855722-rsku2crqtsi4m8ppo2grmqdtrbbkdl67.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

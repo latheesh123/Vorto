@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_margin="@dimen/margin_8dp"
+    android:background="@color/gray"
+    android:layout_height="wrap_content">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/business_image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:id="@+id/business_name"
+        android:text="Busniess Name"
+        android:textSize="20sp"
+        android:layout_margin="@dimen/margin_4dp"
+        app:layout_constraintStart_toEndOf="@+id/business_image"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:id="@+id/business_rating"
+        android:text="Rating"
+        android:textSize="20sp"
+        android:layout_margin="@dimen/margin_4dp"
+        app:layout_constraintStart_toEndOf="@+id/business_image"
+        app:layout_constraintTop_toBottomOf="@+id/business_name"
+        />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:id="@+id/business_open"
+        android:text="Open"
+        android:textSize="20sp"
+        android:layout_margin="@dimen/margin_4dp"
+        app:layout_constraintStart_toEndOf="@+id/business_image"
+        app:layout_constraintTop_toBottomOf="@+id/business_rating"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
