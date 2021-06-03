@@ -1,4 +1,5 @@
-# Vorto
+#Yelp
+
 
 Android Application for Business Search based on current location
 Application using Yelp Which show Results of word search with providing information of businesses 
